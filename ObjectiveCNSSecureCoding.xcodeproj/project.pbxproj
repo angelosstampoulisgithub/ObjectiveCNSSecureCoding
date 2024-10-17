@@ -1,0 +1,814 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		90711A53F041C880244DE0A4 /* Pods_ObjectiveCNSSecureCoding_ObjectiveCNSSecureCodingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A56B9FE8D178322A7C6267B /* Pods_ObjectiveCNSSecureCoding_ObjectiveCNSSecureCodingUITests.framework */; };
+		B53AF6F14A402D4EDF8CFE30 /* Pods_ObjectiveCNSSecureCoding.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41A43E5B0B069EA5FA01A56E /* Pods_ObjectiveCNSSecureCoding.framework */; };
+		D68D5B622CC108290044250B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D68D5B612CC108290044250B /* AppDelegate.m */; };
+		D68D5B652CC108290044250B /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D68D5B642CC108290044250B /* SceneDelegate.m */; };
+		D68D5B6B2CC108290044250B /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D68D5B6A2CC108290044250B /* Base */; };
+		D68D5B6D2CC1082B0044250B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D68D5B6C2CC1082B0044250B /* Assets.xcassets */; };
+		D68D5B702CC1082B0044250B /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D68D5B6F2CC1082B0044250B /* Base */; };
+		D68D5B732CC1082B0044250B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D68D5B722CC1082B0044250B /* main.m */; };
+		D68D5B7D2CC1082C0044250B /* ObjectiveCNSSecureCodingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D68D5B7C2CC1082C0044250B /* ObjectiveCNSSecureCodingTests.m */; };
+		D68D5B872CC1082C0044250B /* ObjectiveCNSSecureCodingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D68D5B862CC1082C0044250B /* ObjectiveCNSSecureCodingUITests.m */; };
+		D68D5B892CC1082C0044250B /* ObjectiveCNSSecureCodingUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D68D5B882CC1082C0044250B /* ObjectiveCNSSecureCodingUITestsLaunchTests.m */; };
+		D68D5B982CC109740044250B /* GenderModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D68D5B972CC109740044250B /* GenderModel.m */; };
+		D68D5B9C2CC10A960044250B /* Services.m in Sources */ = {isa = PBXBuildFile; fileRef = D68D5B9B2CC10A960044250B /* Services.m */; };
+		D68D5BA02CC10AEC0044250B /* ViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D68D5B9F2CC10AEC0044250B /* ViewModel.m */; };
+		D68D5BA42CC10BE30044250B /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D68D5BA32CC10BE30044250B /* MainViewController.m */; };
+		F3E2E35BE6BACD2C303D7CF6 /* Pods_ObjectiveCNSSecureCodingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B68543CD6A77E7E4A8E740CD /* Pods_ObjectiveCNSSecureCodingTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D68D5B792CC1082C0044250B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D68D5B552CC108290044250B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D68D5B5C2CC108290044250B;
+			remoteInfo = ObjectiveCNSSecureCoding;
+		};
+		D68D5B832CC1082C0044250B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D68D5B552CC108290044250B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D68D5B5C2CC108290044250B;
+			remoteInfo = ObjectiveCNSSecureCoding;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A56B9FE8D178322A7C6267B /* Pods_ObjectiveCNSSecureCoding_ObjectiveCNSSecureCodingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ObjectiveCNSSecureCoding_ObjectiveCNSSecureCodingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AD4FC8E3D12ECB86555E357 /* Pods-ObjectiveCNSSecureCoding.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjectiveCNSSecureCoding.debug.xcconfig"; path = "Target Support Files/Pods-ObjectiveCNSSecureCoding/Pods-ObjectiveCNSSecureCoding.debug.xcconfig"; sourceTree = "<group>"; };
+		41A43E5B0B069EA5FA01A56E /* Pods_ObjectiveCNSSecureCoding.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ObjectiveCNSSecureCoding.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FF5600F2EC6CD381D01914E /* Pods-ObjectiveCNSSecureCoding.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjectiveCNSSecureCoding.release.xcconfig"; path = "Target Support Files/Pods-ObjectiveCNSSecureCoding/Pods-ObjectiveCNSSecureCoding.release.xcconfig"; sourceTree = "<group>"; };
+		B68543CD6A77E7E4A8E740CD /* Pods_ObjectiveCNSSecureCodingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ObjectiveCNSSecureCodingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7A5AC7072F2DCF718980337 /* Pods-ObjectiveCNSSecureCodingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjectiveCNSSecureCodingTests.debug.xcconfig"; path = "Target Support Files/Pods-ObjectiveCNSSecureCodingTests/Pods-ObjectiveCNSSecureCodingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D68D5B5D2CC108290044250B /* ObjectiveCNSSecureCoding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObjectiveCNSSecureCoding.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D68D5B602CC108290044250B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D68D5B612CC108290044250B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D68D5B632CC108290044250B /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		D68D5B642CC108290044250B /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		D68D5B6A2CC108290044250B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D68D5B6C2CC1082B0044250B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D68D5B6F2CC1082B0044250B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D68D5B712CC1082B0044250B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D68D5B722CC1082B0044250B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D68D5B782CC1082C0044250B /* ObjectiveCNSSecureCodingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObjectiveCNSSecureCodingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D68D5B7C2CC1082C0044250B /* ObjectiveCNSSecureCodingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectiveCNSSecureCodingTests.m; sourceTree = "<group>"; };
+		D68D5B822CC1082C0044250B /* ObjectiveCNSSecureCodingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObjectiveCNSSecureCodingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D68D5B862CC1082C0044250B /* ObjectiveCNSSecureCodingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectiveCNSSecureCodingUITests.m; sourceTree = "<group>"; };
+		D68D5B882CC1082C0044250B /* ObjectiveCNSSecureCodingUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectiveCNSSecureCodingUITestsLaunchTests.m; sourceTree = "<group>"; };
+		D68D5B962CC109740044250B /* GenderModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GenderModel.h; sourceTree = "<group>"; };
+		D68D5B972CC109740044250B /* GenderModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GenderModel.m; sourceTree = "<group>"; };
+		D68D5B9A2CC10A960044250B /* Services.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Services.h; sourceTree = "<group>"; };
+		D68D5B9B2CC10A960044250B /* Services.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Services.m; sourceTree = "<group>"; };
+		D68D5B9E2CC10AEC0044250B /* ViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewModel.h; sourceTree = "<group>"; };
+		D68D5B9F2CC10AEC0044250B /* ViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewModel.m; sourceTree = "<group>"; };
+		D68D5BA22CC10BE30044250B /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		D68D5BA32CC10BE30044250B /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		DF9E508B7C71737F3288F7B5 /* Pods-ObjectiveCNSSecureCoding-ObjectiveCNSSecureCodingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjectiveCNSSecureCoding-ObjectiveCNSSecureCodingUITests.release.xcconfig"; path = "Target Support Files/Pods-ObjectiveCNSSecureCoding-ObjectiveCNSSecureCodingUITests/Pods-ObjectiveCNSSecureCoding-ObjectiveCNSSecureCodingUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E542E512CBBB3FA086DE4863 /* Pods-ObjectiveCNSSecureCoding-ObjectiveCNSSecureCodingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjectiveCNSSecureCoding-ObjectiveCNSSecureCodingUITests.debug.xcconfig"; path = "Target Support Files/Pods-ObjectiveCNSSecureCoding-ObjectiveCNSSecureCodingUITests/Pods-ObjectiveCNSSecureCoding-ObjectiveCNSSecureCodingUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F0C844949F99FE4F3A40BE95 /* Pods-ObjectiveCNSSecureCodingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjectiveCNSSecureCodingTests.release.xcconfig"; path = "Target Support Files/Pods-ObjectiveCNSSecureCodingTests/Pods-ObjectiveCNSSecureCodingTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D68D5B5A2CC108290044250B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B53AF6F14A402D4EDF8CFE30 /* Pods_ObjectiveCNSSecureCoding.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D68D5B752CC1082C0044250B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3E2E35BE6BACD2C303D7CF6 /* Pods_ObjectiveCNSSecureCodingTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D68D5B7F2CC1082C0044250B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90711A53F041C880244DE0A4 /* Pods_ObjectiveCNSSecureCoding_ObjectiveCNSSecureCodingUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD8B529CDB242A636E81EE04 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				41A43E5B0B069EA5FA01A56E /* Pods_ObjectiveCNSSecureCoding.framework */,
+				2A56B9FE8D178322A7C6267B /* Pods_ObjectiveCNSSecureCoding_ObjectiveCNSSecureCodingUITests.framework */,
+				B68543CD6A77E7E4A8E740CD /* Pods_ObjectiveCNSSecureCodingTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D68D5B542CC108290044250B = {
+			isa = PBXGroup;
+			children = (
+				D68D5B5F2CC108290044250B /* ObjectiveCNSSecureCoding */,
+				D68D5B7B2CC1082C0044250B /* ObjectiveCNSSecureCodingTests */,
+				D68D5B852CC1082C0044250B /* ObjectiveCNSSecureCodingUITests */,
+				D68D5B5E2CC108290044250B /* Products */,
+				EE3F38EBFEF8F42FEF560DF6 /* Pods */,
+				CD8B529CDB242A636E81EE04 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D68D5B5E2CC108290044250B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D68D5B5D2CC108290044250B /* ObjectiveCNSSecureCoding.app */,
+				D68D5B782CC1082C0044250B /* ObjectiveCNSSecureCodingTests.xctest */,
+				D68D5B822CC1082C0044250B /* ObjectiveCNSSecureCodingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D68D5B5F2CC108290044250B /* ObjectiveCNSSecureCoding */ = {
+			isa = PBXGroup;
+			children = (
+				D68D5BA12CC10B0C0044250B /* View */,
+				D68D5B9D2CC10AD90044250B /* ViewModel */,
+				D68D5B992CC10A860044250B /* Services */,
+				D68D5B952CC109530044250B /* Model */,
+				D68D5B602CC108290044250B /* AppDelegate.h */,
+				D68D5B612CC108290044250B /* AppDelegate.m */,
+				D68D5B632CC108290044250B /* SceneDelegate.h */,
+				D68D5B642CC108290044250B /* SceneDelegate.m */,
+				D68D5B692CC108290044250B /* Main.storyboard */,
+				D68D5B6C2CC1082B0044250B /* Assets.xcassets */,
+				D68D5B6E2CC1082B0044250B /* LaunchScreen.storyboard */,
+				D68D5B712CC1082B0044250B /* Info.plist */,
+				D68D5B722CC1082B0044250B /* main.m */,
+			);
+			path = ObjectiveCNSSecureCoding;
+			sourceTree = "<group>";
+		};
+		D68D5B7B2CC1082C0044250B /* ObjectiveCNSSecureCodingTests */ = {
+			isa = PBXGroup;
+			children = (
+				D68D5B7C2CC1082C0044250B /* ObjectiveCNSSecureCodingTests.m */,
+			);
+			path = ObjectiveCNSSecureCodingTests;
+			sourceTree = "<group>";
+		};
+		D68D5B852CC1082C0044250B /* ObjectiveCNSSecureCodingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D68D5B862CC1082C0044250B /* ObjectiveCNSSecureCodingUITests.m */,
+				D68D5B882CC1082C0044250B /* ObjectiveCNSSecureCodingUITestsLaunchTests.m */,
+			);
+			path = ObjectiveCNSSecureCodingUITests;
+			sourceTree = "<group>";
+		};
+		D68D5B952CC109530044250B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D68D5B962CC109740044250B /* GenderModel.h */,
+				D68D5B972CC109740044250B /* GenderModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D68D5B992CC10A860044250B /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D68D5B9A2CC10A960044250B /* Services.h */,
+				D68D5B9B2CC10A960044250B /* Services.m */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		D68D5B9D2CC10AD90044250B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D68D5B9E2CC10AEC0044250B /* ViewModel.h */,
+				D68D5B9F2CC10AEC0044250B /* ViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D68D5BA12CC10B0C0044250B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D68D5BA22CC10BE30044250B /* MainViewController.h */,
+				D68D5BA32CC10BE30044250B /* MainViewController.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EE3F38EBFEF8F42FEF560DF6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2AD4FC8E3D12ECB86555E357 /* Pods-ObjectiveCNSSecureCoding.debug.xcconfig */,
+				9FF5600F2EC6CD381D01914E /* Pods-ObjectiveCNSSecureCoding.release.xcconfig */,
+				E542E512CBBB3FA086DE4863 /* Pods-ObjectiveCNSSecureCoding-ObjectiveCNSSecureCodingUITests.debug.xcconfig */,
+				DF9E508B7C71737F3288F7B5 /* Pods-ObjectiveCNSSecureCoding-ObjectiveCNSSecureCodingUITests.release.xcconfig */,
+				C7A5AC7072F2DCF718980337 /* Pods-ObjectiveCNSSecureCodingTests.debug.xcconfig */,
+				F0C844949F99FE4F3A40BE95 /* Pods-ObjectiveCNSSecureCodingTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D68D5B5C2CC108290044250B /* ObjectiveCNSSecureCoding */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D68D5B8C2CC1082C0044250B /* Build configuration list for PBXNativeTarget "ObjectiveCNSSecureCoding" */;
+			buildPhases = (
+				80C8680DF738CCD8BBE3CBA7 /* [CP] Check Pods Manifest.lock */,
+				D68D5B592CC108290044250B /* Sources */,
+				D68D5B5A2CC108290044250B /* Frameworks */,
+				D68D5B5B2CC108290044250B /* Resources */,
+				2820173D2D1B5F7B7B5E41E9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ObjectiveCNSSecureCoding;
+			productName = ObjectiveCNSSecureCoding;
+			productReference = D68D5B5D2CC108290044250B /* ObjectiveCNSSecureCoding.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D68D5B772CC1082C0044250B /* ObjectiveCNSSecureCodingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D68D5B8F2CC1082C0044250B /* Build configuration list for PBXNativeTarget "ObjectiveCNSSecureCodingTests" */;
+			buildPhases = (
+				C11EF0317A6E395C05C40ECA /* [CP] Check Pods Manifest.lock */,
+				D68D5B742CC1082C0044250B /* Sources */,
+				D68D5B752CC1082C0044250B /* Frameworks */,
+				D68D5B762CC1082C0044250B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D68D5B7A2CC1082C0044250B /* PBXTargetDependency */,
+			);
+			name = ObjectiveCNSSecureCodingTests;
+			productName = ObjectiveCNSSecureCodingTests;
+			productReference = D68D5B782CC1082C0044250B /* ObjectiveCNSSecureCodingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D68D5B812CC1082C0044250B /* ObjectiveCNSSecureCodingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D68D5B922CC1082C0044250B /* Build configuration list for PBXNativeTarget "ObjectiveCNSSecureCodingUITests" */;
+			buildPhases = (
+				2FD557B7EAB0E6EB62B76E7E /* [CP] Check Pods Manifest.lock */,
+				D68D5B7E2CC1082C0044250B /* Sources */,
+				D68D5B7F2CC1082C0044250B /* Frameworks */,
+				D68D5B802CC1082C0044250B /* Resources */,
+				5826E97DADA07D0838C9BD87 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D68D5B842CC1082C0044250B /* PBXTargetDependency */,
+			);
+			name = ObjectiveCNSSecureCodingUITests;
+			productName = ObjectiveCNSSecureCodingUITests;
+			productReference = D68D5B822CC1082C0044250B /* ObjectiveCNSSecureCodingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D68D5B552CC108290044250B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					D68D5B5C2CC108290044250B = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					D68D5B772CC1082C0044250B = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = D68D5B5C2CC108290044250B;
+					};
+					D68D5B812CC1082C0044250B = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = D68D5B5C2CC108290044250B;
+					};
+				};
+			};
+			buildConfigurationList = D68D5B582CC108290044250B /* Build configuration list for PBXProject "ObjectiveCNSSecureCoding" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D68D5B542CC108290044250B;
+			productRefGroup = D68D5B5E2CC108290044250B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D68D5B5C2CC108290044250B /* ObjectiveCNSSecureCoding */,
+				D68D5B772CC1082C0044250B /* ObjectiveCNSSecureCodingTests */,
+				D68D5B812CC1082C0044250B /* ObjectiveCNSSecureCodingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D68D5B5B2CC108290044250B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D68D5B6D2CC1082B0044250B /* Assets.xcassets in Resources */,
+				D68D5B702CC1082B0044250B /* Base in Resources */,
+				D68D5B6B2CC108290044250B /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D68D5B762CC1082C0044250B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D68D5B802CC1082C0044250B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2820173D2D1B5F7B7B5E41E9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ObjectiveCNSSecureCoding/Pods-ObjectiveCNSSecureCoding-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ObjectiveCNSSecureCoding/Pods-ObjectiveCNSSecureCoding-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ObjectiveCNSSecureCoding/Pods-ObjectiveCNSSecureCoding-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2FD557B7EAB0E6EB62B76E7E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ObjectiveCNSSecureCoding-ObjectiveCNSSecureCodingUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5826E97DADA07D0838C9BD87 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ObjectiveCNSSecureCoding-ObjectiveCNSSecureCodingUITests/Pods-ObjectiveCNSSecureCoding-ObjectiveCNSSecureCodingUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ObjectiveCNSSecureCoding-ObjectiveCNSSecureCodingUITests/Pods-ObjectiveCNSSecureCoding-ObjectiveCNSSecureCodingUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ObjectiveCNSSecureCoding-ObjectiveCNSSecureCodingUITests/Pods-ObjectiveCNSSecureCoding-ObjectiveCNSSecureCodingUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80C8680DF738CCD8BBE3CBA7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ObjectiveCNSSecureCoding-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C11EF0317A6E395C05C40ECA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ObjectiveCNSSecureCodingTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D68D5B592CC108290044250B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D68D5B622CC108290044250B /* AppDelegate.m in Sources */,
+				D68D5B732CC1082B0044250B /* main.m in Sources */,
+				D68D5BA42CC10BE30044250B /* MainViewController.m in Sources */,
+				D68D5B982CC109740044250B /* GenderModel.m in Sources */,
+				D68D5B652CC108290044250B /* SceneDelegate.m in Sources */,
+				D68D5B9C2CC10A960044250B /* Services.m in Sources */,
+				D68D5BA02CC10AEC0044250B /* ViewModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D68D5B742CC1082C0044250B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D68D5B7D2CC1082C0044250B /* ObjectiveCNSSecureCodingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D68D5B7E2CC1082C0044250B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D68D5B892CC1082C0044250B /* ObjectiveCNSSecureCodingUITestsLaunchTests.m in Sources */,
+				D68D5B872CC1082C0044250B /* ObjectiveCNSSecureCodingUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D68D5B7A2CC1082C0044250B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D68D5B5C2CC108290044250B /* ObjectiveCNSSecureCoding */;
+			targetProxy = D68D5B792CC1082C0044250B /* PBXContainerItemProxy */;
+		};
+		D68D5B842CC1082C0044250B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D68D5B5C2CC108290044250B /* ObjectiveCNSSecureCoding */;
+			targetProxy = D68D5B832CC1082C0044250B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D68D5B692CC108290044250B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D68D5B6A2CC108290044250B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D68D5B6E2CC1082B0044250B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D68D5B6F2CC1082B0044250B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D68D5B8A2CC1082C0044250B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D68D5B8B2CC1082C0044250B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D68D5B8D2CC1082C0044250B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AD4FC8E3D12ECB86555E357 /* Pods-ObjectiveCNSSecureCoding.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ObjectiveCNSSecureCoding/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.template.ObjectiveCNSSecureCoding;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D68D5B8E2CC1082C0044250B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FF5600F2EC6CD381D01914E /* Pods-ObjectiveCNSSecureCoding.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ObjectiveCNSSecureCoding/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.template.ObjectiveCNSSecureCoding;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D68D5B902CC1082C0044250B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7A5AC7072F2DCF718980337 /* Pods-ObjectiveCNSSecureCodingTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.template.ObjectiveCNSSecureCodingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ObjectiveCNSSecureCoding.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ObjectiveCNSSecureCoding";
+			};
+			name = Debug;
+		};
+		D68D5B912CC1082C0044250B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0C844949F99FE4F3A40BE95 /* Pods-ObjectiveCNSSecureCodingTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.template.ObjectiveCNSSecureCodingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ObjectiveCNSSecureCoding.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ObjectiveCNSSecureCoding";
+			};
+			name = Release;
+		};
+		D68D5B932CC1082C0044250B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E542E512CBBB3FA086DE4863 /* Pods-ObjectiveCNSSecureCoding-ObjectiveCNSSecureCodingUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.template.ObjectiveCNSSecureCodingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ObjectiveCNSSecureCoding;
+			};
+			name = Debug;
+		};
+		D68D5B942CC1082C0044250B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF9E508B7C71737F3288F7B5 /* Pods-ObjectiveCNSSecureCoding-ObjectiveCNSSecureCodingUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.template.ObjectiveCNSSecureCodingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ObjectiveCNSSecureCoding;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D68D5B582CC108290044250B /* Build configuration list for PBXProject "ObjectiveCNSSecureCoding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D68D5B8A2CC1082C0044250B /* Debug */,
+				D68D5B8B2CC1082C0044250B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D68D5B8C2CC1082C0044250B /* Build configuration list for PBXNativeTarget "ObjectiveCNSSecureCoding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D68D5B8D2CC1082C0044250B /* Debug */,
+				D68D5B8E2CC1082C0044250B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D68D5B8F2CC1082C0044250B /* Build configuration list for PBXNativeTarget "ObjectiveCNSSecureCodingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D68D5B902CC1082C0044250B /* Debug */,
+				D68D5B912CC1082C0044250B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D68D5B922CC1082C0044250B /* Build configuration list for PBXNativeTarget "ObjectiveCNSSecureCodingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D68D5B932CC1082C0044250B /* Debug */,
+				D68D5B942CC1082C0044250B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D68D5B552CC108290044250B /* Project object */;
+}
